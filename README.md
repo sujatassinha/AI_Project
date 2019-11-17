@@ -1,5 +1,7 @@
 # AI_Project
 
+(c) skip-thought model to be trained on UniM-Poem, for now we are using the pretrained model
+
 Step 1: Download skipthoughts zip file
 
 Step 2: Run following lines in terminal and save in the directory:
