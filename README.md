@@ -2,25 +2,18 @@
 
 (c) skip-thought model to be trained on UniM-Poem, for now we are using the pretrained model
 
-Step 1: Download skipthoughts zip file
+Step 1:
 
-Step 2: Run following lines in terminal and save in the directory ( I saved them in the same folder, I had rest of the project code in ):
+Get the pre-trained models
 
-wget http://www.cs.toronto.edu/~rkiros/models/dictionary.txt
+To download the pre-trained models on the BookCorpus dataset.
 
-wget http://www.cs.toronto.edu/~rkiros/models/utable.npy
+bash get_skip_thoughts_pretrained_models.sh
 
-wget http://www.cs.toronto.edu/~rkiros/models/btable.npy
+Step 2:
 
-wget http://www.cs.toronto.edu/~rkiros/models/uni_skip.npz
+Encode sentences
 
-wget http://www.cs.toronto.edu/~rkiros/models/uni_skip.npz.pkl
+To encode sentences into combined skip-thought vectors (unidirectional + bidirectional):
 
-wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz
-
-wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz.pkl
-
-Step 3 : Add the PYTHONPATH of this repo/folder to your bashrc file.
-
-Step 4 : (encoder takes in an Python list as an input)
-run the file as python2.7 cSkipThoughtModel.py
+Please go to encode-by-skip-thoughts.ipynb and put you data loader in.
