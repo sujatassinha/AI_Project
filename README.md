@@ -23,4 +23,4 @@ wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz.pkl
 Step 3 : Add the PYTHONPATH of this repo/folder to your bashrc file.
 
 Step 4 : (encoder takes in an Python list as an input)
-run the file as python2.7 SkipThoughtModel.py
+run the file as python2.7 cSkipThoughtModel.py
